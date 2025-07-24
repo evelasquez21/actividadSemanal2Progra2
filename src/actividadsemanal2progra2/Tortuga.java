@@ -8,16 +8,11 @@ package actividadsemanal2progra2;
  *
  * @author eduar
  */
-public class Perro extends Mascota implements Vacunable{
+public class Tortuga extends Mascota{
 
     @Override
     public void hacerSonido() {
-        System.out.println("GUAU");
-    }
-
-    @Override
-    public void vacunar() {
-        System.out.println("Se ha vacunado a la mascota");
+        System.out.println("Pasos lentos");
     }
     
 }
